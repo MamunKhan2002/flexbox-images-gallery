@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container h1 {
+    width: max-content;
+    background-color: #E9A8F2;
+    margin: 10px auto;
+    padding-inline: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: #FFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.img_gallery {
+    flex-basis: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: beige;
+    margin: 10px;
+}
+
+
+.iteam1 {
+    background-image: url(/images/girl-1.avif);
+}
+
+.iteam2 {
+    background-image: url(/images/girl-2.avif);
+}
+
+.iteam3 {
+    background-image: url(/images/girl-3.avif);
+}
+
+.iteam4 {
+    background-image: url(/images/girl-4.avif);
+}
+
+.iteam5 {
+    background-image: url(/images/girl-5.avif);
+}
+
+.iteam6 {
+    background-image: url(/images/girl-6.avif);
+}
+
+.iteam7 {
+    background-image: url(/images/girl-7.avif);
+}
+
+.iteam8 {
+    background-image: url(/images/girl-8.avif);
+}
